@@ -20,7 +20,7 @@ function submitData(name,email){
    })
    .catch(function(error) {
      document.body.innerHTML = error.message
-     alert("Bad things! Ragnarők!");
+     alert("Error!");
      console.log(error.message);
    });
  }
